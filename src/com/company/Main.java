@@ -39,9 +39,6 @@ public  class Main
 	// write your code here
     Gris app = new Gris();
     app.setVisible(true);
-
-
-
     }
 
 
