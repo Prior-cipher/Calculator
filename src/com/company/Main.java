@@ -19,7 +19,7 @@ public class Main extends JFrame {
         JButton button_equal = new JButton("=");
         JButton button_multi = new JButton("x");
         JButton button_div = new JButton("/");
-
+        // Кнопки цифр
         JButton button_1 = new JButton("1");
         JButton button_2 = new JButton("2");
         JButton button_3 = new JButton("3");
