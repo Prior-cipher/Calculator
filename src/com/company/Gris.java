@@ -46,10 +46,7 @@ public class Gris extends JFrame
         }
         return ("0");
     }
-    public void Mxt()
-    {
 
-    }
     public Gris()
     {
         super("Simple Example");

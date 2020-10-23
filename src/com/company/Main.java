@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.awt.event.ActionListener;
 public  class Main
-
-
 {
     public static String Scet(String alpha)
     {
