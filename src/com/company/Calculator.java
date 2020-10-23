@@ -1,4 +1,4 @@
-package com.company;
+package src.com.company;
 import javax.swing.*;
 
 public class Calculator {
