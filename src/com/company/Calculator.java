@@ -1,4 +1,4 @@
-package src.com.company;
+package com.company;
 import javax.swing.*;
 
 public class Calculator {
@@ -28,13 +28,13 @@ public class Calculator {
     JButton division = new JButton("/");
     JButton times = new JButton("*");
     JButton equals = new JButton("=");
-    public void restrict(){
+    private void restrict(){
         text.setText("Press the C-button mazafaka, and you use only buttons, OKAY?!!111");
         result = 0;
         operation = null;
     }
     //Методы для элементов интерфейса
-    public void createNumber(char num) {
+    private void createNumber(char num) {
         if (!conventor.equals(text.getText())) {
             restrict();
         } else {
@@ -47,10 +47,10 @@ public class Calculator {
         }
     }
 
-    public void countNow(){
+    private void countNow(){
         if(!conventor.equals("Enter your number")) {
             if (operation == null) {
-                result += Long.parseLong(conventor);
+                result = Long.parseLong(conventor);
             } else {
                 switch (operation) {
                     case ('+'):
@@ -71,7 +71,7 @@ public class Calculator {
             }
         }
     }
-    public void createOperation (Character change){
+    private void createOperation (Character change){
         if (!conventor.equals(text.getText())){
             restrict();
         } else {
@@ -82,7 +82,7 @@ public class Calculator {
         }
     }
 
-    public void countEVERYOOONE(){
+    private void countEVERYOOONE(){
         if (!conventor.equals(text.getText())){
             restrict();
         } else {
